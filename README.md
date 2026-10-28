@@ -1,4 +1,4 @@
-# 📚 BookFinder — Moteur de Recherche de Livres Basé sur le Contenu
+# BookFinder — Moteur de Recherche de Livres Basé sur le Contenu
 
 **Projet 7 — Domaine 2 : Recherche d'Information et Extraction**  
 **Auteur :** BOUDERNA EL MAHDI
