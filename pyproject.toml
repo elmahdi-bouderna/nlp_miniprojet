@@ -1,0 +1,27 @@
+[project]
+name = "book-search-nlp"
+version = "0.1.0"
+description = "Moteur de recherche de livres basé sur le contenu — Comparaison TF-IDF vs Sentence Embeddings (Projet NLP n°7)"
+readme = "README.md"
+authors = [
+    { name = "BOUDERNA EL MAHDI", email = "bouderna.el_.fst@uhp.ac.ma" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.0",
+    "nltk>=3.9.0",
+    "numpy>=2.0.0",
+    "pandas>=2.2.0",
+    "scikit-learn>=1.5.0",
+    "scipy>=1.13.0",
+    "sentence-transformers>=3.0.0",
+    "streamlit>=1.35.0",
+]
+
+[project.scripts]
+book-search-nlp = "book_search_nlp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
